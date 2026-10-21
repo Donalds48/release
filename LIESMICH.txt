@@ -1,0 +1,24 @@
+LIVE-ÜBERSETZER – PC-Ton (z. B. Discord) live auf Deutsch
+
+START
+  1. ZIP entpacken (irgendwohin, z. B. Dokumente).
+  2. Start.bat doppelklicken.
+     Beim ersten Mal wird alles Nötige geladen (ca. 1-3 GB, ein paar Minuten).
+     Falls Windows "Der Computer wurde durch Windows geschützt" zeigt:
+     "Weitere Informationen" -> "Trotzdem ausführen".
+  3. Updates kommen automatisch beim Start.
+
+BEDIENUNG
+  F7   Antwort auf Deutsch tippen -> wird übersetzt und in die Zwischenablage kopiert
+  F8   Sprachausgabe an/aus
+  F9   Overlay ein-/ausblenden
+  Rechtsklick aufs Overlay: Audioquelle (nur Discord / alles), Sprecher umbenennen, Beenden
+  Doppelklick auf einen Namen: Sprecher umbenennen
+  Overlay mit der Maus verschieben, unten rechts ziehen = Größe ändern
+
+HINWEISE
+  - Mit NVIDIA-Grafikkarte läuft die Erkennung schnell auf der GPU, sonst auf der CPU
+    (etwas langsamer, kleineres Modell).
+  - Einstellungen stehen in config.json (wird beim ersten Start angelegt).
+  - Deinstallieren: Ordner löschen. Es wird nichts systemweit installiert
+    (nur der Whisper-Download liegt in %USERPROFILE%\.cache\huggingface).
