@@ -1,10 +1,10 @@
 {
-    "version":  1,
-    "notes":  "Erste Version",
+    "version":  2,
+    "notes":  "Auto-Update aktiv",
     "files":  {
                   "translator.py":  "886c5e168532e1e313abccee333fe1e6b77297df072cc1f3e3d0c853ae7fdc93",
                   "proc_loopback.py":  "955afc8c88895160bf2445c07c9da8638dcebe8247de5c98fc76799553265fe2",
-                  "update.py":  "4adc14bc97ddfae51fb42fb2405a4d61472df653c97a33e561b4b64d3b4a8f3b",
+                  "update.py":  "79fb769c2fb474eb1aab4b70186f06cf80f5fe1243c33e817ff5f6e8273ee108",
                   "setup.ps1":  "2faeebabce0de7c2d52519534131d50264dc776f5b248dd7c9a6fe66f137e7c3",
                   "Start.bat":  "049ead680c409f81659ac0e26b75384df03985590c4215e05882bc5fd57a58db",
                   "requirements.txt":  "84520c2c0b2d0b8d3ced198e74b3616f64e1e1476a5b7babc8cb3e854a9157ce",

@@ -9,7 +9,7 @@ import os
 import sys
 import urllib.request
 
-UPDATE_URL = ""  # z. B. https://raw.githubusercontent.com/<name>/LiveTranslator/main/
+UPDATE_URL = "https://raw.githubusercontent.com/Donalds48/release/main/"
 
 BASE = os.path.dirname(os.path.abspath(__file__))
 SETUP_FILES = {"requirements.txt", "requirements-gpu.txt", "setup.ps1"}
